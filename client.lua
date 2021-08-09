@@ -25,8 +25,8 @@ end, false)
 RegisterKeyMapping('crouch', 'Crouch', 'keyboard', 'lcontrol')
 
 Citizen.CreateThread(function()
-  while true do
-    Citizen.Wait(0)
+	while true do
+		Citizen.Wait(0)
 		DisableControlAction(0, 36, true)
-  end
+	end
 end)
